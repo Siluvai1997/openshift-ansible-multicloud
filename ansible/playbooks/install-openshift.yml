@@ -1,0 +1,12 @@
+---
+- name: Install OpenShift
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Log current platform
+      debug:
+        msg: "Installing OpenShift on {{ platform }}"
+
+    - name: Placeholder for OpenShift installer execution
+      debug:
+        msg: "Run OpenShift installer manually for UPI or via future automation"
